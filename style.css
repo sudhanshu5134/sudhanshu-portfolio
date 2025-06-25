@@ -1,0 +1,318 @@
+.top-heading1{
+    font-size: 50px;
+    margin-bottom: 0;
+}
+.top-heading2{
+    margin-top: 0;
+}
+.intro{
+    width: 50%;
+    margin: 25px auto 100px auto;
+    line-height: 2;
+}
+.top-cloud-img{
+  transform: translateX(-20%);
+  animation: top-clouding 6s infinite;
+  transition: ease 3s;
+ 
+}
+.top-cloud-area{
+  
+  position: absolute;
+  top: 50px;
+  right: 300px;
+  flex-direction:row;
+}
+  @keyframes top-clouding {
+  0%{transform: translateX(-20%);transition: ease 3s;}
+  50%{transform: translateX(20%);transition: ease 3s;}
+  
+}
+.right-cloud-img{
+  transform: translateX(-30%);
+  animation: right-clouding 8s infinite;
+  transition: ease 4s;
+ 
+}
+.right-cloud-area{
+  
+  position: absolute;
+  top: 300px;
+  right: 300px;
+  flex-direction:row;
+}
+  @keyframes right-clouding {
+  0%{transform: translateX(-30%);transition: ease 4s;}
+  50%{transform: translateX(30%);transition: ease 4s;}
+  
+}.bottom-cloud-img{
+  transform: translateX(-20%);
+  animation: bottom-clouding 7.5s infinite;
+  transition: ease 1.5s;
+ 
+}
+.bottom-cloud-area{
+  
+  position: absolute;
+  bottom: 300px;
+  left: 300px;
+  flex-direction:row;
+
+  
+  
+}
+@keyframes bottom-clouding {
+  0%{transform: translateX(-20%);transition: ease 2.5s;}
+  50%{transform: translateX(40%);transition: ease 5s;}
+}
+.top-container{
+    background-color:#E6F9F9;
+    margin: 0;
+    padding-top: 135px;
+    position: relative;
+    
+}
+
+.middle-container{
+    margin: 100px 0 40px 0;
+
+}
+h1{
+    margin-top: 0;
+   color: #66BFBF;
+   font-size: 6.625rem;
+  font-family: "Sacramento", cursive;
+ 
+ 
+}
+h3{
+    color: #11999E;
+    font-size: 1.5rem;
+
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+ 
+}
+h2{
+    color: #66BFBF;
+  font-weight:normal;
+  font-size: 2.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  padding: 60px 0px 20px 0px ;
+ 
+}
+hr{
+    border: dotted #a1eded 6px;
+    border-bottom: none;
+    width: 5%;
+    margin: 50px auto 50px auto;
+}
+.skill-set-1{
+    background-color: rgba(0, 0, 0,1);
+    position: relative;
+    width: 100%;
+    height: 570px;
+    
+
+}
+/**.html{
+    position: absolute;
+    left: 10px;
+   
+}
+.css{
+    bottom: 5px;
+    right: 10px;
+}
+
+.java{
+    position: absolute;
+    right: 10px;
+   
+}
+.js{
+    bottom: 5px;
+    left: 10px;
+}**/
+
+
+
+body{
+    background-color: #E6F9F9;
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+   
+}
+
+
+.bottum-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 250px;
+}
+.top-cloud{
+   position: absolute;
+    top: 50px;
+    right: 300px;
+}
+.profile-pic{
+    border-radius: 50%;
+}
+.float-area1{
+  
+  position: absolute;
+  flex-direction:column;
+  left: 100px;
+  justify-content: center;
+  top: 15px;
+}
+
+.floating-img1{
+  transform: translateY(-10%);
+  animation: floater 1.5s infinite;
+  transition: ease 0.5s;
+  width: 150px;
+  height:150px;
+}
+.float-area2{
+  
+  position: absolute;
+  flex-direction:column;
+  bottom: 10px;
+  left: 250px;
+  justify-content: center;
+}
+
+.floating-img2{
+  transform: translateY(-10%);
+  animation: floater 1.5s infinite;
+  transition: ease 0.5s;
+  width: 150px;
+  height:150px;
+}.float-area3{
+  
+  position: absolute;
+  flex-direction:column;
+  right: 100px;
+  top: 15px;
+  
+ 
+}
+
+.floating-img3{
+  transform: translateY(-10%);
+  animation: floater 1.5s infinite;
+  transition: ease 0.5s;
+  width: 150px;
+  height:150px;
+}.float-area4{
+  
+  position: absolute;
+  flex-direction:column;
+
+  right: 200px;
+
+  bottom: 5%;
+ 
+}
+
+.floating-img4{
+  transform: translateY(-10%);
+  animation: floater 1.5s infinite;
+  transition: ease 0.5s;
+  width: 175px;
+  height:175px;
+}
+.float-area5{
+  
+  
+  flex-direction:column;
+
+  
+  justify-content: center;
+}
+
+/**.floating-img5{
+  transform: translateY(-10%);
+  animation: floater 1.5s infinite;
+  transition: ease 0.5s;
+  width: 300px;
+  height:300px;
+}**/
+
+
+
+@keyframes floater {
+  0%{transform: translateY(-10%);transition: ease 0.5s;}
+  50%{transform: translateY(10%);transition: ease 0.5s;}
+}
+video{
+
+    
+}
+.skill-row{
+    width: 50%;
+    text-align: left;
+    margin: 100px auto 100px auto;
+    line-height: 2;
+    
+}
+.dd{
+    width: 25%;
+    float: left;
+    margin: 5;
+}
+.footballer{
+    width: 25%;
+     float: right;
+     margin: 5;
+}
+.bottom-container{
+    background-color: #11999E;
+    padding: 50px 0px 10px;
+}
+.end-para{
+    width: 50%;
+    margin: 50px auto 100px;
+}
+.myButton {
+	box-shadow: 0px 10px 14px -7px #11999E;
+	background:linear-gradient(to bottom, #77b55a 5%, #72b352 100%);
+	background-color:#11999E;
+	border-radius:4px;
+	border:1px solid #4b8f29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:12px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #5b8a3c;
+    margin-bottom: 80px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #11999e 5%, #13797d 100%);
+	background-color:#11999E;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.copyright{
+    margin: 0;
+    padding: 20px 0px 30px;
+    font-size: .750em;
+    color: #E6F9F9;
+
+}
+a{
+    margin:10px 20px;
+    text-decoration: none;
+    color: #0ee7c2;
+}
+
