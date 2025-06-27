@@ -182,7 +182,7 @@ body{
   position: absolute;
   flex-direction:column;
   bottom: 10px;
-  left: 250px;
+  left: 100px;
   justify-content: center;
 }
 
@@ -197,7 +197,7 @@ body{
   position: absolute;
   flex-direction:column;
   right: 100px;
-  top: 15px;
+  top: 17px;
   
  
 }
@@ -213,9 +213,9 @@ body{
   position: absolute;
   flex-direction:column;
 
-  right: 200px;
+  right: 100px;
 
-  bottom: 5%;
+  bottom: 5px;
  
 }
 
