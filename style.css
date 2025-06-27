@@ -223,25 +223,10 @@ body{
   transform: translateY(-10%);
   animation: floater 1.5s infinite;
   transition: ease 0.5s;
-  width: 175px;
-  height:175px;
-}
-.float-area5{
-  
-  
-  flex-direction:column;
-
-  
-  justify-content: center;
+  width: 160px;
+  height:160px;
 }
 
-/**.floating-img5{
-  transform: translateY(-10%);
-  animation: floater 1.5s infinite;
-  transition: ease 0.5s;
-  width: 300px;
-  height:300px;
-}**/
 
 
 
@@ -255,7 +240,7 @@ video{
   left: 0;
   width: 100vw;
   height: 100vh;
-  object-fit: cover;
+  object-fit: contain;
   z-index: -1;
 
 
